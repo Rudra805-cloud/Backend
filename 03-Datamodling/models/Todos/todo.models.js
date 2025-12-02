@@ -12,7 +12,9 @@ complete:{
 },
 //imp
 createdBy:{
-   type=mongoose.Schema.Types.ObjectId,
+  //link karne ko 
+   type:mongoose.Schema.Types.ObjectId,
+   //just baad ref likhna kise kar rahe hai
   ref:"User"
 },
 subtodo:[
