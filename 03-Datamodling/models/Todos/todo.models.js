@@ -16,6 +16,7 @@ createdBy:{
    type:mongoose.Schema.Types.ObjectId,
    //just baad ref likhna kise kar rahe hai
   ref:"User"
+  
 },
 subtodo:[
   {
